@@ -28,7 +28,6 @@ public class ScrapperController {
                     mapBusinesses(siteUrl, businessesUrlMap);
                 }
             }
-            System.out.println(businessesUrlMap.size());
             return businessesUrlMap.toString();
         }
         catch(Exception e){
